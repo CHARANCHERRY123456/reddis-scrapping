@@ -1,5 +1,5 @@
 import argparse
-from reddit_scrapper import extra_username , fetch_user_data
+from reddit_scrapper import extract_username , fetch_user_data
 
 
 def main():
@@ -8,7 +8,7 @@ def main():
     args = parser.parse_args()
 
     try:
-        username = extra_username(args.url)
+        username = extract_username(args.url)
         user_data = fetch_user_data(username)
         print("fetcheduser data : ", user_data)
         # llm persona generation part
