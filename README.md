@@ -42,8 +42,7 @@ Generate a structured user persona from any Reddit profile using scraped posts/c
 ### 2. 🧬 Clone This Repo
 
 ```bash
-git clone https://github.com/<your-username>/reddit-persona-generator.git
-cd reddit-persona-generator
+git clone https://github.com/CHARANCHERRY123456/reddis-scrapping.git
 ```
 
 ---
@@ -109,14 +108,16 @@ python main.py --url https://www.reddit.com/user/kojied/
 ## 📁 Folder Structure
 
 ```
-reddit-persona-generator/
+reddis-scrapping/
 │
 ├── main.py                    # Entry point
-├── reddit_scraper.py         # Reddit data fetcher using PRAW
-├── persona_generator.py      # Chunking + LLM persona creation
+├── reddit_scrapper.py         # Reddit data fetcher using PRAW
+├── persona_generator.py       # Chunking + LLM persona creation
+├── test_praw.py               # Reddit API test script
 ├── requirements.txt
-├── .env.example              # Sample .env
-├── output/                   # Output text files
+├── .env.example               # Sample .env
+├── output/                    # Output text files (e.g., kojied.txt)
+├── __pycache__/               # Python cache files
 └── README.md
 ```
 
@@ -164,4 +165,4 @@ This repository is submitted as part of a take-home assignment for BeyondChats I
 
 ## 🙋‍♂️ Questions?
 
-Raise an issue or message me directly on [Internshala] or [LinkedIn](https://www.linkedin.com/in/your-name).
+Raise an issue or message me directly on [Internshala] or [LinkedIn](https://www.linkedin.com/in/c-v-charan/).
